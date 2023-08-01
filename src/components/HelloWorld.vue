@@ -42,7 +42,7 @@
       </v-sheet>
       <v-sheet height="600">
         <v-calendar ref="calendar" category-show-all :categories="categories" interval-width:="30" interval-count="19"
-          :interval-format="formatEventTimeY" first-time="04:00" v-model="focus" color="primary" :events="events"
+          :interval-format="formatEventTimeY" first-time="05:00" v-model="focus" color="primary" :events="events"
           :event-color="getEventColor" :type="type" @click:event="showEvent" @click:more="viewDay" @click:date="viewDay"
           @change="updateRange">
           <template v-slot:event="{ event }">
